@@ -2,7 +2,6 @@ module Main where
 
 import Data.List (foldl')
 import System.IO
-import Text.Read
 
 main :: IO ()
 main = do
