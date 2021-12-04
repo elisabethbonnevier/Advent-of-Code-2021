@@ -39,6 +39,7 @@ executable Advent-of-Code2021
 
 executable day-1
     main-is: day-1/Main.hs
-    build-depends:    base ^>=4.15.0.0
+    build-depends:    base ^>=4.15.0.0,
+                      MissingH
     hs-source-dirs:   src
     default-language: Haskell2010
